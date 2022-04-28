@@ -1,0 +1,39 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "[Unreal Toolbox] Currency",
+	"Description": "A system that is used to easily manage different types of currency",
+	"Category": "Unreal Toolbox",
+	"CreatedBy": "Henry Jooste",
+	"CreatedByURL": "",
+	"DocsURL": "https://github.com/hfjooste/UT-Currency",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "UTCurrency",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"BlacklistPlatforms": [
+				"IOS",
+				"Android",
+				"HTML5",
+				"TVOS",
+				"Mac",
+				"Linux",
+				"LinuxAArch64"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "UTLogger",
+			"Enabled": true
+		}
+	]
+}
